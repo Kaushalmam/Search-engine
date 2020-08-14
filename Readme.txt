@@ -1,18 +1,18 @@
+# Search Engine using vector space model
 
-
-The code is splitted into three different pythons files to make it readable:
+- The code is splitted into three different pythons files to make it readable:
 1) Prepro.py: this file has a function that will preprocess the input to it.
 2) out.py:  This file has the output fucntion that will give the output as in the sample output.
 3) driver.py: This file has the drive code that performs the calculation for TF, IDF, TFIDF and Cosine Similarity.
 
 Note: comments are give in each file to indcate how the process is carried out.
 
-For both queries and data, Preprocessing and Tokenization is done and corrospondingly TF, IDF and TFIDF dictionaries are created
+- For both queries and data, Preprocessing and Tokenization is done and corrospondingly TF, IDF and TFIDF dictionaries are created
 using which we further calculate the document length and cosine similarity. Finally in the output function we calculate, Precision
 and recall for each query and average precision and recall for these operations.
 
 
-Following the pricision and recall of the method:
+- Following the pricision and recall of the method:
 
 FOR  10  MOST RELEVANT DOCUMENTS
 Query  1
